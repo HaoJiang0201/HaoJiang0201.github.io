@@ -94,8 +94,15 @@ hr{border:0;border-top:1.5px solid #eee;margin:20px 0; margin-block-end: 0.7em;}
   background-image: linear-gradient(0deg, white, #89AFCF);
 }
 .company-logo {
-  width:150px;
+  width:200px;
   height:50px;
+}
+.fold-area-header {
+  display: flex;
+  align-items: center;
+}
+.fold-area-date {
+  margin: auto;
 }
 
 .w3-col.s1{width:8.33333%}.w3-col.s2{width:16.66666%}.w3-col.s3{width:24.99999%}.w3-col.s4{width:33.33333%}

@@ -7,6 +7,10 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
   crossorigin="anonymous">
 <link rel="stylesheet" href='css/style.css'>
+<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 
 <body class="w3-light-grey">
 
@@ -62,11 +66,9 @@
         <!-- End Left Column -->
       </div>
 
-<!-- <img src="images/CCII.png" class="company-logo"> -->
-
       <!-- Right Column -->
-      <!-- Summary Area -->
       <div class="w3-twothird right-column">
+        <!-- Summary Area -->
         <div class="w3-container w3-card w3-white w3-margin-bottom content-area">
           <h2 class="w3-padding-12 w3-text-new">
             <i class="far fa-address-card fa-fw w3-margin-right w3-xxlarge" ></i>Summary
@@ -81,63 +83,156 @@
         </div>
         <!-- Projects List -->
         <div class="w3-container w3-card w3-white w3-margin-bottom">
-          <h2 class="w3-text-new w3-padding-12"><i class="fa fa-cubes fa-fw w3-margin-right w3-xxlarge w3-text-new"></i>Projects</h2>
-          <div class="w3-container">
-            <div class="container-header">
-              <h5 class="w3-opacity"><a class="project-link" href="https://github.com/silviabon/tandem-patient-portal" target="_blank"><i class="fab fa-github fa-fw w3-margin-right w3-large w3-text-new"></i><b>Budget Plan Helper</b></a></h5>
-              <h6 class="w3-text-new"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2019</h6>
+          <h2 class="w3-text-new w3-padding-12">
+            <i class="fa fa-cubes fa-fw w3-margin-right w3-xxlarge w3-text-new"></i>Projects
+          </h2>
+          <!-- LHL Projects-->
+          <div class="panel panel-default">
+            <!-- LHL Projects Header -->
+            <div class="panel-heading" style="background-color: white">
+              <a data-toggle="collapse" data-parent="#accordion" href="#LHL-Projects">
+                <div class="fold-area-header">
+                  <img src="images/LHL.png" class="company-logo">
+                  <p class="panel-title w3-text-new fold-area-date"><i class="fa fa-calendar fa-fw"></i>Mar - May 2019</p>
+                  <p class="panel-title w3-text-new">Details</p>
+                </div>
+              </a>
             </div>
-            <p> Final project of Lighthouse Lab web development bootcamp.</p>
-            <p> A budget planning app for making general daily budget plan for various events, especially in social environment.</p>
-            <p class="coding-language"> React, Rails, PostgreSQL, HTML, CSS</p>
-            <hr>
+            <!-- LHL Projects Details Inside Folder Area -->
+            <div id="LHL-Projects" class="panel-collapse collapse">
+              <div class="panel-body">
+                <!-- LHL Budget Planner Project -->
+                <div class="w3-container">
+                  <div class="container-header">
+                    <h5 class="w3-opacity"><a class="project-link" href="https://github.com/silviabon/tandem-patient-portal" target="_blank"><i class="fab fa-github fa-fw w3-margin-right w3-large w3-text-new"></i><b>Budget Planner</b></a></h5>
+                    <h6 class="w3-text-new"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2019</h6>
+                  </div>
+                  <p> Final project of Lighthouse Lab web development bootcamp.</p>
+                  <p> A budget planning app for making general daily budget plan for various events, especially in social environment.</p>
+                  <p class="coding-language"> React, Rails, PostgreSQL, HTML, CSS</p>
+                  <hr>
+                </div>
+                <!-- LHL Jungle Project -->
+                <div class="w3-container">
+                  <div class="container-header">
+                    <h5 class="w3-opacity"><a class="project-link" href="https://github.com/silviabon/tandem-patient-portal" target="_blank"><i class="fab fa-github fa-fw w3-margin-right w3-large w3-text-new"></i><b>Jungle</b></a></h5>
+                    <h6 class="w3-text-new"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2019</h6>
+                  </div>
+                  <p> An Amazon-like shopping platform for practicing ruby on rails.</p>
+                  <p> By using a skeleton project to crafting it into a well-implemented shopping website.</p>
+                  <p> Including all basic functions: </p>
+                    <li>products list, details, checkout and review</li>
+                    <li>user signup, login, and shopping cart</li>
+                    <li>administrator's add, delete, edit products and their categories</li>
+                  <p class="coding-language"> Ruby, Rails, PostgreSQL, HTML, CSS</p>
+                  <hr>
+                </div>
+                <!-- LHL Chatty App Project -->
+                <div class="w3-container">
+                  <div class="container-header">
+                    <h5 class="w3-opacity"><a class="project-link" href="https://github.com/silviabon/chatty" target="_blank"><i class="fab fa-github fa-fw w3-margin-right w3-large w3-text-new"></i><b>Chatty App</b></a></h5>
+                    <h6 class="w3-text-new"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Apr 2019</h6>
+                  </div>
+                  <p>Chatty allows users to communicate with each other without having to register accounts. </p>
+                  <p>Primarily a client-side SPA (single-page app) built with ReactJS.</p>
+                  <p>The client-side app communicates with a server via WebSockets for multi-user real-time updates.</p>
+                  <p class="coding-language"> React, JSX, Web Socket, HTML, CSS</p>
+                  <hr>
+                </div>
+                <!-- LHL Map Book Project -->
+                <div class="w3-container">
+                  <div class="container-header">
+                    <h5 class="w3-opacity"><a class="project-link" href="https://github.com/HaoJiang0201/LHL-P3-Mapbook" target="_blank"><i class="fab fa-github fa-fw w3-margin-right w3-large w3-text-new"></i><b>Map Book</b></a></h5>
+                    <h6 class="w3-text-new"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Apr 2019</h6>
+                  </div>
+                  <p>A web app that allows users to collaboratively create maps which list multiple "points"</p>
+                  <p>For example: "Best Places to Eat Around Town" or "Locations of Movie Scenes".</p>
+                  <p class="coding-language">Node-JS, Express, ES5/6, JQuery, AJAX, PostgreSQL, Knex, HTML, CSS</p>
+                  <hr>
+                </div>
+                <!-- LHL Tweeter Project -->
+                <div class="w3-container">
+                  <div class="container-header">
+                    <h5 class="w3-opacity"><a class="project-link" href="https://github.com/silviabon/tweeter" target="_blank"><i class="fab fa-github fa-fw w3-margin-right w3-large w3-text-new"></i><b>Tweeter</b></a></h5>
+                    <h6 class="w3-text-new"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2019</h6>
+                  </div>
+                  <p>Tweeter is a simple, single-page Twitter clone built with HTML, CSS, JS, jQuery and AJAX on the client-side, and Node, Express, HTML, CSS
+                    and MongoDB on thye server-side.</p>
+                  <hr>
+                </div>
+                <!-- LHL Tiny App Project -->
+                <div class="w3-container">
+                  <div class="container-header">
+                    <h5 class="w3-opacity"><a class="project-link" href="https://github.com/silviabon/tinyApp" target="_blank"><i class="fab fa-github fa-fw w3-margin-right w3-large w3-text-new"></i><b>Tiny App</b></a></h5>
+                    <h6 class="w3-text-new"><i class="fa fa-calendar fa-fw w3-margin-right"></i>March 2019</h6>
+                  </div>
+                  <p>A full stack web app built with Node and Express that allows users to shorten long URLs.</p>
+                  <hr>
+                </div>
+                <!-- LHL GitHub Avatar Downloader Project -->
+                <div class="w3-container">
+                  <div class="container-header">
+                    <h5 class="w3-opacity"><a class="project-link" href="https://github.com/silviabon/tinyApp" target="_blank"><i class="fab fa-github fa-fw w3-margin-right w3-large w3-text-new"></i><b>GitHub Avatar Downloader</b></a></h5>
+                    <h6 class="w3-text-new"><i class="fa fa-calendar fa-fw w3-margin-right"></i>March 2019</h6>
+                  </div>
+                  <p>A command line node app that uses HTTP to retrieve content from GitHub using their API and writes content to disk.</p>
+                  <br />
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="w3-container">
-            <div class="container-header">
-              <h5 class="w3-opacity"><a class="project-link" href="https://github.com/silviabon/chatty" target="_blank"><i class="fab fa-github fa-fw w3-margin-right w3-large w3-text-new"></i><b>Chatty App</b></a></h5>
-              <h6 class="w3-text-new"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Apr 2019</h6>
+          <!-- CCII Projects-->
+          <div class="panel panel-default">
+            <!-- CCII Projects Header -->
+            <div class="panel-heading" style="background-color: white">
+              <a data-toggle="collapse" data-parent="#accordion" href="#CCII-Projects">
+                <div class="fold-area-header">
+                  <img src="images/CCII.png" class="company-logo">
+                  <p class="panel-title w3-text-new fold-area-date"><i class="fa fa-calendar fa-fw"></i>Feb - Jun 2018</p>
+                  <p class="panel-title w3-text-new">Details</p>
+                </div>
+              </a>
             </div>
-            <p>Chatty allows users to communicate with each other without having to register accounts. </p>
-            <p>Primarily a client-side SPA (single-page app) built with ReactJS.</p>
-            <p>The client-side app communicates with a server via WebSockets for multi-user real-time updates.</p>
-            <p class="coding-language"> React, JSX, Web Socket, HTML, CSS</p>
-            <hr>
-          </div>
-          <div class="w3-container">
-            <div class="container-header">
-              <h5 class="w3-opacity"><a class="project-link" href="https://github.com/HaoJiang0201/LHL-P3-Mapbook" target="_blank"><i class="fab fa-github fa-fw w3-margin-right w3-large w3-text-new"></i><b>Map Book</b></a></h5>
-              <h6 class="w3-text-new"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Apr 2019</h6>
+            <!-- CCII Projects Details Inside Folder Area -->
+            <div id="CCII-Projects" class="panel-collapse collapse">
+              <div class="panel-body">
+                <!-- CCII ERPNext System -->
+                <div class="w3-container">
+                  <div class="container-header">
+                    <h5 class="w3-opacity"><a class="project-link" href="https://github.com/silviabon/tandem-patient-portal" target="_blank"><i class="fab fa-github fa-fw w3-margin-right w3-large w3-text-new"></i><b>Budget Planner</b></a></h5>
+                    <h6 class="w3-text-new"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2019</h6>
+                  </div>
+                  <p> Final project of Lighthouse Lab web development bootcamp.</p>
+                  <p> A budget planning app for making general daily budget plan for various events, especially in social environment.</p>
+                  <p class="coding-language"> React, Rails, PostgreSQL, HTML, CSS</p>
+                  <hr>
+                </div>
+                <!-- CCII ABP -->
+                <div class="w3-container">
+                  <div class="container-header">
+                    <h5 class="w3-opacity"><a class="project-link" href="https://github.com/silviabon/tandem-patient-portal" target="_blank"><i class="fab fa-github fa-fw w3-margin-right w3-large w3-text-new"></i><b>Jungle</b></a></h5>
+                    <h6 class="w3-text-new"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2019</h6>
+                  </div>
+                  <p> An Amazon-like shopping platform for practicing ruby on rails.</p>
+                  <p> By using a skeleton project to crafting it into a well-implemented shopping website.</p>
+                  <p> Including all basic functions: </p>
+                    <li>products list, details, checkout and review</li>
+                    <li>user signup, login, and shopping cart</li>
+                    <li>administrator's add, delete, edit products and their categories</li>
+                  <p class="coding-language"> Ruby, Rails, PostgreSQL, HTML, CSS</p>
+                  <hr>
+                </div>
+              </div>
             </div>
-            <p>A web app that allows users to collaboratively create maps which list multiple "points"</p>
-            <p>For example: "Best Places to Eat Around Town" or "Locations of Movie Scenes".</p>
-            <p class="coding-language">Node-JS, Express, ES5/6, JQuery, AJAX, PostgreSQL, Knex, HTML, CSS</p>
-            <hr>
-          </div>
-          <div class="w3-container">
-            <div class="container-header">
-              <h5 class="w3-opacity"><a class="project-link" href="https://github.com/silviabon/tweeter" target="_blank"><i class="fab fa-github fa-fw w3-margin-right w3-large w3-text-new"></i><b>Tweeter</b></a></h5>
-              <h6 class="w3-text-new"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2019</h6>
-            </div>
-            <p>Tweeter is a simple, single-page Twitter clone built with HTML, CSS, JS, jQuery and AJAX on the client-side, and Node, Express, HTML, CSS
-              and MongoDB on thye server-side.</p>
-            <hr>
-          </div>
-          <div class="w3-container">
-            <div class="container-header">
-              <h5 class="w3-opacity"><a class="project-link" href="https://github.com/silviabon/tinyApp" target="_blank"><i class="fab fa-github fa-fw w3-margin-right w3-large w3-text-new"></i><b>Tiny App</b></a></h5>
-              <h6 class="w3-text-new"><i class="fa fa-calendar fa-fw w3-margin-right"></i>September 2018</h6>
-            </div>
-            <p>A full stack web app built with Node and Express that allows users to shorten long URLs (à la bit.ly).</p>
-            <br />
           </div>
         </div>
-
+        <!-- Work Experiences -->
         <div class="w3-container w3-card w3-white w3-margin-bottom">
           <h2 class="w3-text-new w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-new"></i>Work
             Experience</h2>
             <div class="w3-container">
               <div class="container-header">
-                <h5 class="w3-opacity"><b>Web Developer / Talent Market Place</b></h5>
+                <h5 class="w3-opacity"><b>Web Developer / Lighthouse Lab</b></h5>
                 <h6 class="w3-text-new"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Dec - 2018 - current</h6>
               </div>
               <p>Volunteering at TMP as Frontend Web Developer. </p>
@@ -200,48 +295,53 @@
             <br>
           </div>
         </div>
-
+        <!-- Education -->
         <div class="w3-container w3-card w3-white w3-margin-bottom">
           <h2 class="w3-text-new w3-padding-16"><i class="fas fa-user-graduate fa-fw w3-margin-right w3-xxlarge w3-text-new"></i>Education</h2>
           <div class="w3-container">
             <div class="container-header">
+              <h5 class="w3-opacity"><b>Udemy Online Courses</b></h5>
+              <h6 class="w3-text-new"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Feb 2018 - Now</h6>
+            </div>
+            <li>Unity 2D</li>
+            <hr>
+          </div>
+          <div class="w3-container">
+            <div class="container-header">
               <h5 class="w3-opacity"><b>Lighthouse Labs</b></h5>
-              <h6 class="w3-text-new"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2018</h6>
+              <h6 class="w3-text-new"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar - May 2019</h6>
             </div>
-            <p>Web Development Bootcamp</p>
+            <li>Web Development bootcamp</li>
             <hr>
           </div>
           <div class="w3-container">
             <div class="container-header">
-              <h5 class="w3-opacity"><b>BCIT</b></h5>
-              <h6 class="w3-text-new"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2017 - 2018</h6>
+              <h5 class="w3-opacity"><b>Vancouver Island University</b></h5>
+              <h6 class="w3-text-new"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Apr 2017 - July 2018</h6>
             </div>
-            <p>Associate Certificate in Applied Software Development - With Distinction</p>
+            <li>Major: Master of Business administration</li>
+            <li>Degree: MBA</li>
             <hr>
           </div>
           <div class="w3-container">
             <div class="container-header">
-              <h5 class="w3-opacity"><b>Sprott Shaw College</b></h5>
-              <h6 class="w3-text-new"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2016 - 2017</h6>
+              <h5 class="w3-opacity"><b>Valparaiso University</b></h5>
+              <h6 class="w3-text-new"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Aug 2010 - Jan 2012</h6>
             </div>
-            <p>Diploma in Advanced Business Management</p>
+            <li>Major: Information Tehcnology and Management</li>
+            <li>Degree: Master Degree of Science</li>
             <hr>
           </div>
           <div class="w3-container">
             <div class="container-header">
-              <h5 class="w3-opacity"><b>Universidade Positivo - Brazil</b></h5>
-              <h6 class="w3-text-new"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2009 - 2011</h6>
+              <h5 class="w3-opacity"><b>Beijing Jiaotong University</b></h5>
+              <h6 class="w3-text-new"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jul 2005 - Jul 2009</h6>
             </div>
-            <p>Diploma in System Analysis and Development</p>
+            <li>Communication Engineering</li>
+            <li>Bachler Degree of Science</li>
             <hr>
           </div>
-          <div class="w3-container">
-            <div class="container-header">
-              <h5 class="w3-opacity"><b>Universidade Federal do Parana - Brazil</b></h5>
-              <h6 class="w3-text-new"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2002 - 2005</h6>
-            </div>
-            <p>BA in International Business Management</p><br>
-          </div>
+          
         </div>
 
         <!-- End Right Column -->
