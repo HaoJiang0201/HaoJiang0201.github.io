@@ -94,15 +94,19 @@ hr{border:0;border-top:1.5px solid #eee;margin:20px 0; margin-block-end: 0.7em;}
   background-image: linear-gradient(0deg, white, #89AFCF);
 }
 .company-logo {
-  width:200px;
-  height:50px;
+  width:36px;
+  height:36px;
+}
+.company-name {
+  margin-left: 2vw;
+  width:350px;
 }
 .fold-area-header {
   display: flex;
   align-items: center;
 }
 .fold-area-date {
-  margin-left: 10vw;
+  margin-left: 2vw;
   margin-right: auto;
 }
 
@@ -116,6 +120,7 @@ hr{border:0;border-top:1.5px solid #eee;margin:20px 0; margin-block-end: 0.7em;}
 .container-header{
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 #profession{
   margin-top: 0px;
