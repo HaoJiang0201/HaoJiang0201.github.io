@@ -10,6 +10,15 @@
         margin:none;
       }
 
+      .audio{
+        position: fixed;
+         top: 0;
+         right: 0;
+         width: 256px;
+         opacity: 60%;
+         border: 0px;
+      }
+
         .imgBox{
             width: 100%;
             height: 100%;
@@ -40,6 +49,7 @@
 </head>
 <body class="background">
 <!-- <p>图片轮播</p> -->
+<em><audio class="audio" src="audio/BGM.mp3" controls autoplay preload="auto"></audio></em>
 <div class="imgBox">
     <img class="img-slide img1" src="images/Image01.jpg" alt="1">
     <img class="img-slide img2" src="images/Image02.jpg" alt="2">
@@ -51,7 +61,8 @@
     <img class="img-slide img2" src="images/Image08.jpg" alt="8">
 </div>
 </body>
-<audio src="audio/BGM.mp3" autoplay></audio>
+
+<!-- <audio src="https://raw.githubusercontent.com/HaoJiang0201/Cocos2d-JS-BubbleJungle/master/res/sounds/BGM.mp3" autoplay preload="auto"></audio> -->
 <!-- <audio controls autoplay="autoplay" >
     <source src="audio/BGM.mp3" type="audio/mp3">
     <source src="audio/BGM.ogg" type="audio/ogg">
